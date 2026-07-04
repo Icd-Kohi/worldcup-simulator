@@ -8,21 +8,6 @@ Entry for FIFA World Cup simulator challenge. The app loads 32 teams, randomly d
 - CSS
 - JavaScript
 
-#### Step 1: API consumed - April 15th at 9:55pm
-`curl -X GET https://development-internship-api.geopostenergy.com/WorldCup/GetAllTeams -H "Accept: application/json" -H "git-user: Icd-Kohi"`.
-#### Step 7: POST winner - April 24th at 1:51am
-`curl -X POST 'https://development-internship-api.geopostenergy.com/WorldCup/FinalResult' \
-    -H 'Content-Type: application/json' \
-    -H 'git-user:Icd-Kohi' \
-    -d '{
-  "equipeA": "29fbd738-62d8-40ef-a35a-4317a030433a",
-  "equipeB": "876f43aa-b1eb-4ed6-8a0b-cf2912f3769c",
-  "golsEquipeA": 4,
-  "golsEquipeB": 4,
-  "golsPenaltyTimeA": 3,
-  "golsPenaltyTimeB": 4
-}'`
-
 ## Architecture
 
 ```
