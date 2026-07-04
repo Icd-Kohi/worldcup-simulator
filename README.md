@@ -2,6 +2,10 @@
 
 Entry for FIFA World Cup simulator challenge. The app loads 32 teams, randomly draws groups, simulates the group stage and knockout bracket, resolves knockout draws by penalties, and submits the champion result in a JSON format.
 
+## Screenshot
+
+![In app image](./src/images/simulador-fifa-worldcup.png)
+
 ## Stack
 
 - HTML
